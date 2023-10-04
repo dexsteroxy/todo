@@ -61,7 +61,7 @@ function Home() {
                 <div className="">
                   <p
                     onClick={() => setBtn(true)}
-                    className="  bg-primary w-8 h-8 relat fixed -left-[2px]  top-[45px] flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all text-2xl text-white z-20"
+                    className="  bg-primary w-8 h-8 relat fixed left-[2px]  top-[45px] flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all text-2xl text-white z-20"
                   >
                     {" "}
                     <i class="fa-solid fa-list"></i>
@@ -216,15 +216,15 @@ function Home() {
                         type="text"
                         id=""
                         placeholder=" Search..."
-                        className=" outline-none w-[160px] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic"
+                        className=" outline-none w-[160px] mb-[50px] mdl:mb-[0px] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic"
                       />
                     </form>
                   </div>
                   <span
                     onClick={() => setBtn(false)}
-                    className="  bg-primary w-8 h-8 relative -top-[460px] mdl:left-[300px] left-[240px]  flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all text-2xl text-white z-30"
+                    className=" p-  bg-primary p-4 rounded-md ml-4 "
                   >
-                    <i class="fa-solid fa-xmark"></i>
+                    <i class="fa-solid fa-xmark text-2xl text-center"></i>
                   </span>
                 </div>
               )}
