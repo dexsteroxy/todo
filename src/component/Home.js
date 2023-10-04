@@ -61,7 +61,7 @@ function Home() {
                 <div className="">
                   <p
                     onClick={() => setBtn(true)}
-                    className="  bg-primary w-8 h-8 relat fixed -left-[8px]  top-[45px] flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all text-2xl text-white z-20"
+                    className="  bg-primary w-8 h-8 relat fixed -left-[2px]  top-[45px] flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all text-2xl text-white z-20"
                   >
                     {" "}
                     <i class="fa-solid fa-list"></i>
@@ -222,7 +222,7 @@ function Home() {
                   </div>
                   <span
                     onClick={() => setBtn(false)}
-                    className="  bg-primary w-8 h-8 relative -top-[460px] mdl:left-[300px] left-[280px]  flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all text-2xl text-white z-30"
+                    className="  bg-primary w-8 h-8 relative -top-[460px] mdl:left-[300px] left-[240px]  flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all text-2xl text-white z-30"
                   >
                     <i class="fa-solid fa-xmark"></i>
                   </span>
